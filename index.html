@@ -15,7 +15,7 @@
         body {
             margin: 0;
             font-family: 'Nunito', sans-serif;
-            color: black;
+            color: white;
             background: #202731;
         }
 
@@ -30,8 +30,24 @@
 
         .dark {
             color: white;
-            background: #0f0f10;
+            background: #202731;
         } 
+        .orange {
+            color: white;
+            background: #f58025;
+        }
+
+        .spacer {
+            aspect-ratio: 900/600;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .layer1 {
+            background-image: url('./layered-waves-haikei.svg');
+        }
 
     </style>
 </head>
@@ -42,7 +58,8 @@
         <h1>Aditya Mehta</h1>
         <p>Princeton Class of 2024</p>
     </section>
-    <section>
+    <div class="spacer layer1"> </div>
+    <section class = "orange">
         <h1>More to come soon</h1>
         <p></p>
     </section>
