@@ -1,69 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"> 
-
-    <link href="styles.css" rel="stylesheet">
-
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
     <style>
-
-        body {
-            margin: 0;
-            font-family: 'Nunito', sans-serif;
-            color: white;
-            background: #202731;
-        }
-
-        section {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 400px;
-            padding: 100px 20vw;
-        }
-
-        .dark {
-            color: white;
-            background: #202731;
-        } 
-        .orange {
-            color: white;
-            background: #f58025;
-        }
-
-        .spacer {
-            aspect-ratio: 900/200;
-            width: 100%;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-        }
-
-        .layer1 {
-            background-image: url('./layeredWave.svg');
-        }
-
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        background-color: #fafafa;
+      }
     </style>
-</head>
-
-
-<body>
-    <section class = "dark">
-        <h1>Aditya Mehta</h1>
-        <p>Princeton Class of 2024</p>
-    </section>
-    <div class="spacer layer1"> </div>
-    <section class = "orange">
-        <h1>More to come soon</h1>
-        <p></p>
-    </section>
-</body>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
 </html>
