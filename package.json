@@ -11,6 +11,7 @@
     "vite": "^2.9.9"
   },
   "dependencies": {
+    "tailwindcss": "^3.0.24",
     "three": "^0.141.0"
   }
 }
