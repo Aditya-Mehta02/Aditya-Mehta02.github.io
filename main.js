@@ -1,6 +1,5 @@
 import * as THREE from 'three'
 
-let app
 let group
 let camera, scene, renderer
 let positions, colors
@@ -28,8 +27,6 @@ init()
 animate()
 
 function init() {
-
-  app = document.getElementById('app')
 
   camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 10000)
   camera.position.z = minSize
@@ -108,7 +105,7 @@ function init() {
 
   window.addEventListener('resize', onWindowResize)
 
-  app.appendChild(renderer.domElement)
+  document.body.appendChild(renderer.domElement)
 }
 
 function onWindowResize() {
