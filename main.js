@@ -29,7 +29,7 @@ animate()
 
 function init() {
 
-  app = document.body
+  app = document.getElementById('app')
 
   camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 10000)
   camera.position.z = minSize
